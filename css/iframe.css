@@ -1,0 +1,38 @@
+/*   ************  BASIC-SETUP  ************   */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-color: #c4c4c4;
+    color: #fff;
+}
+
+/*   ************  HEADING  ************   */
+
+.heading {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-weight: 900;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 8rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: #000;
+}

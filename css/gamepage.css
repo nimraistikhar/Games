@@ -1,0 +1,154 @@
+/*   ************  BASIC-SETUP  ************   */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    background-color: #c4c4c4;
+    color: #fff;
+}
+
+/*   ************  NAVBAR  ************   */
+
+.navbarElement {
+    height: 10vh;
+    background-color: #342832;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image {
+    flex: 0 0 10%;
+    margin-left: 4rem;
+}
+
+.navbarElement img {
+    height: 6vh;
+    width: auto;
+}
+
+.navbarElement ul {
+    display: flex;
+    flex: 0 0 58%;
+}
+
+.navbarElement ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.navbarElement ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.navbarElement a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.login {
+    color: #fff;
+}
+
+.signup {
+    color: #000;
+    width: 8%;
+    background-color: #ffcb04;
+    padding-top: .8rem;
+    height: 5vh;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/*   ************  GAME  ************   */
+
+.game {
+    height: 90vh;
+}
+
+.game__page {
+    display: flex;
+}
+
+.sideNav {
+    flex: 0 0 16%;
+    background-color: #22101c;
+    height: 90vh;
+    overflow-y: auto;
+}
+
+.iframe {
+    flex: 1;
+}
+
+/*   ************  HEADING  ************   */
+
+.heading {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 7rem;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: #000;
+}
+
+/*   ************  SIDE-NAV  ************   */
+
+.side {
+    margin-top: 8rem;
+}
+
+.sideNav__Element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.sideNav__Element h4 {
+    font-size: 1.65rem;
+    letter-spacing: 1px;
+    margin: 1.5rem 0 1.2rem 0;
+}
+
+.sideNav__Element div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.sideNav__Element div > * {
+    margin: 0rem 1.5rem 0rem .5rem;
+}
+
+.sideNav__Element div img {
+    height: 5vh;
+    width: 20%;
+    object-fit: contain;
+}
+
+.sideNav__Element div p {
+    font-size: 1.2rem;
+}
